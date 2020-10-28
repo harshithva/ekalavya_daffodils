@@ -615,7 +615,7 @@ a:hover {
   display: inline-block;
 }
 .navbar .logo a img {
-  height: 48px;
+  height: 100px;
 }
 .navbar .site-menu {
   margin: 0 30px;
