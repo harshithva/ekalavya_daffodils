@@ -615,7 +615,7 @@ a:hover {
   display: inline-block;
 }
 .navbar .logo a img {
-  height: 100px;
+  height: 60px;
 }
 .navbar .site-menu {
   margin: 0 30px;
@@ -2871,4 +2871,10 @@ a:hover {
   .footer .footer-bottom span:last-child {
     margin-left: 0;
   }
+}
+
+
+.facebook-icon,twitter-icon{
+  /* color: #2980b9; */
+  color: #3498db;
 }
