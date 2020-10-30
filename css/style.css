@@ -2926,3 +2926,18 @@ a:hover {
   height: 30px;
   
 }
+
+.product-news h6{
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  font-family: "Oduda";
+  font-size: 22px;
+}
+.product{
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  font-family: "Oduda";
+  font-size: 22px;
+}
