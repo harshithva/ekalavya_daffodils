@@ -2874,10 +2874,15 @@ a:hover {
   }
 }
 
+.facebook-icon:hover{
+  opacity: 0.7;
+}
 
 .facebook-icon{
   color: #2980b9; 
   font-size: 20px;
+  border-radius: 50%;
+
   
 }
 .twitter-icon{
@@ -2898,4 +2903,18 @@ a:hover {
 .pinterest-icon{
   color: #8e44ad;
   font-size: 20px;
+}
+
+/*Ekalavya bold*/
+.text-warning{
+  letter-spacing:6px;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.logo1 a img {
+  position: absolute;
+  left: 825px;
+  top: 10px;
+  height: 35px;
+  
 }
