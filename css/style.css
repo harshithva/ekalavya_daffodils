@@ -581,7 +581,7 @@ a:hover {
 
 /* NAVBAR */
 .navbar {
-  width: 1300px;
+  width: 1250px;
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -591,9 +591,11 @@ a:hover {
   position: absolute;
   left: 50%;
   top: 50px;
-  padding: 3px 0;
+  margin: 20px 0;
+  padding: 5px 0;
   transform: translateX(-50%);
   border-radius: 4px;
+  
   z-index: 3;
 }
 .navbar:before {
@@ -610,12 +612,15 @@ a:hover {
 }
 .navbar .logo {
   margin-left: 0;
+
+
 }
 .navbar .logo a {
   display: inline-block;
 }
 .navbar .logo a img {
   height: 60px;
+  border: 5px solid transparent;
 
 }
 .navbar .site-menu {
@@ -1106,7 +1111,7 @@ a:hover {
   font-size: 36px;
   color: #009a4e;
   font-family: "Oduda";
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 .side-content h6 {
   font-size: 36px;
@@ -2908,7 +2913,7 @@ a:hover {
 
 /*Ekalavya bold*/
 .text-light{
-  letter-spacing:8px;
+  letter-spacing:6px;
   font-family: Impact, Charcoal, sans-serif;
   font-size: 18px;
 }
