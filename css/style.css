@@ -2877,20 +2877,25 @@ a:hover {
 
 .facebook-icon{
   color: #2980b9; 
+  font-size: 20px;
   
 }
 .twitter-icon{
   color: #3498db;
+  font-size: 20px;
 }
 
 .instagram-icon{
  color: #e74c3c;
+ font-size: 20px;
 }
 
 .youtube-icon{
   color: #c0392b;
+  font-size: 20px;
 }
 
 .pinterest-icon{
   color: #8e44ad;
+  font-size: 20px;
 }
