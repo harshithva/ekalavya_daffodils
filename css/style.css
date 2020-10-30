@@ -2913,9 +2913,10 @@ a:hover {
 
 /*Ekalavya bold*/
 .text-light{
-  letter-spacing:6px;
-  font-family: Impact, Charcoal, sans-serif;
-  font-size: 18px;
+  letter-spacing:4px;
+  font-family: calibri ;
+  font-size: 15pt;
+  font-style:bold;
 }
 
 .logo1 a img {
