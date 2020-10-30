@@ -591,7 +591,7 @@ a:hover {
   position: absolute;
   left: 50%;
   top: 50px;
-  padding: 30px 0;
+  padding: 3px 0;
   transform: translateX(-50%);
   border-radius: 4px;
   z-index: 3;
@@ -616,6 +616,7 @@ a:hover {
 }
 .navbar .logo a img {
   height: 60px;
+
 }
 .navbar .site-menu {
   margin: 0 30px;
@@ -2906,20 +2907,28 @@ a:hover {
 }
 
 /*Ekalavya bold*/
-.text-warning{
-  letter-spacing:6px;
+.text-light{
+  letter-spacing:8px;
   font-family: Impact, Charcoal, sans-serif;
+  font-size: 18px;
 }
 
 .logo1 a img {
-  position: absolute;
+  
   left: 825px;
   top: 10px;
-  height: 35px;
+  height: 30px;
   
 }
 
 .product-news h6{
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  font-family: "Oduda";
+  font-size: 22px;
+}
+.product{
   width: 100%;
   display: block;
   margin-bottom: 20px;
