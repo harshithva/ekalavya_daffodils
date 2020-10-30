@@ -2908,5 +2908,13 @@ a:hover {
 /*Ekalavya bold*/
 .text-warning{
   letter-spacing:6px;
-  fon
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.logo1 a img {
+  position: absolute;
+  left: 825px;
+  top: 10px;
+  height: 35px;
+  
 }
