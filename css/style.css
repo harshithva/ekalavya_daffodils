@@ -2512,15 +2512,15 @@ a:hover {
   margin-bottom: 26px;
   border: 1px solid #cecece;
   border-radius: 6px;
-  padding: 25px;
+  padding: 10px;
   background: #fff;
 }
 .contact-box:last-child {
   margin-bottom: 0;
 }
 .contact-box figure {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -2596,13 +2596,13 @@ a:hover {
   margin-bottom: 50px;
 }
 .footer form input[type="text"] {
-  width: calc(70% - 10px);
+  width: calc(80% - 10px);
   display: inline-block;
   margin-right: 10px;
   border: none;
 }
 .footer form input[type="submit"] {
-  width: 30%;
+  width: 25%;
   display: inline-block;
 }
 .footer .footer-separator {
@@ -2917,9 +2917,11 @@ a:hover {
 /*Ekalavya bold*/
 .text-light{
   letter-spacing:3px;
-  font-family: calibri ;
+  font-family: "Poppins",'Telefon', Sans-Serif;;
   font-size: 17px;
- font-weight: bold;
+ font-weight:bold;
+
+ padding: 7px;
 
 }
 
@@ -2928,6 +2930,7 @@ a:hover {
   left: 825px;
   top: 10px;
   height: 30px;
+  
   
 }
 
