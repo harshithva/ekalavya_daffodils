@@ -526,6 +526,8 @@ a:hover {
   top: 0;
   z-index: 1;
 }
+
+
 .topbar .container {
   display: flex;
   flex-wrap: wrap;
@@ -2818,6 +2820,7 @@ a:hover {
 }
 /* RESPONSIVE MOBILE */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+ 
   .topbar .text {
     display: none;
   }
@@ -2913,10 +2916,11 @@ a:hover {
 
 /*Ekalavya bold*/
 .text-light{
-  letter-spacing:4px;
+  letter-spacing:3px;
   font-family: calibri ;
-  font-size: 15pt;
-  font-style:bold;
+  font-size: 17px;
+ font-weight: bold;
+
 }
 
 .logo1 a img {
