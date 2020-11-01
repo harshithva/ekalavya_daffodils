@@ -2948,3 +2948,20 @@ a:hover {
   font-family: "Oduda";
   font-size: 22px;
 }
+
+.cardp{
+  font-family: "Poppins";
+    font-size: 15px;
+}
+
+/* .social-links a {
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 15px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #fff;
+} */
