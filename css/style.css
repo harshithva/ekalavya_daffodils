@@ -871,11 +871,20 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background-size: auto 150% !important;
+  background-size: 150% !important;
   position: relative;
   padding-top: 100px;
   z-index: 0;
+  background-image: url("../images/page-header-lg.jpg");
+  /* background-repeat: no-repeat !important; */
 }
+
+@media only screen and (max-width: 792px) {
+ .page-header{
+  background-image: url("../images/page-header-bg.jpg");
+ }
+}
+
 .page-header:after {
   content: "";
   width: 100%;
@@ -2965,3 +2974,16 @@ a:hover {
 .social-links a:hover {
   color: #fff;
 } */
+
+.text-warning{
+  margin-left: -10px;
+  margin-bottom: -100px;
+}
+
+.bg-green{
+  background-color:  #009a4e;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
