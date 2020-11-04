@@ -455,7 +455,7 @@ a:hover {
 }
 .side-widget .social-media {
   width: 100%;
-  display: block;
+  display: fill;
   margin: 0;
   padding: 0;
 }
@@ -468,7 +468,7 @@ a:hover {
 .side-widget .social-media li a {
   color: #fff;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .side-widget .social-media li a:hover {
   color: #fbc50b;
@@ -623,6 +623,7 @@ a:hover {
 .navbar .logo a img {
   height: 60px;
   border: 5px solid transparent;
+  opacity: 0.5;
 
 }
 .navbar .site-menu {
@@ -1399,7 +1400,7 @@ a:hover {
   width: 100%;
   display: block;
   background: #fff;
-  padding: 30px;
+  /* padding: 30px; */
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 }
@@ -2195,7 +2196,7 @@ a:hover {
 .testimonial p {
   width: 100%;
   display: block;
-  font-size: 22px;
+  font-size: 18px;
   color: #fff;
 }
 .testimonial figure {
@@ -2213,7 +2214,7 @@ a:hover {
 }
 .testimonial .infos h6 {
   display: block;
-  font-size: 30px;
+  font-size: 20px;
   font-family: "Oduda";
 }
 
@@ -2941,6 +2942,7 @@ a:hover {
   height: 30px;
   
   
+  
 }
 
 .product-news h6{
@@ -2963,17 +2965,24 @@ a:hover {
     font-size: 15px;
 }
 
-/* .social-links a {
-  color: rgba(255, 255, 255, 0.5);
-  padding-left: 15px;
+/* .social-links1 a{
+  font-size: 18px;
   display: inline-block;
-  line-height: 1px;
+  background: #292929;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
   transition: 0.3s;
-}
+} */
 
 .social-links a:hover {
   color: #fff;
-} */
+} 
 
 .text-warning{
   margin-left: -10px;
@@ -2986,4 +2995,54 @@ a:hover {
 
 .bg-no-repeat{
   background-repeat: no-repeat;
+}
+
+/* .social-links a {
+  color: #9b9b9b;
+  padding: 4px 0 4px 15px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+} */
+
+.fa {  
+  width: 30px;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 2px;
+  color: white;
+  border-radius: 50%; 
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+
+.fa-facebook {
+  background: #3B5998;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
 }
