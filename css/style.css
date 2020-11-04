@@ -621,9 +621,9 @@ a:hover {
   display: inline-block;
 }
 .navbar .logo a img {
-  height: 60px;
+  height: 75px;
   border: 5px solid transparent;
-  opacity: 0.5;
+  
 
 }
 .navbar .site-menu {
@@ -2592,7 +2592,7 @@ a:hover {
   display: inline-block;
 }
 .footer .logo a img {
-  height: 48px;
+  height: 100px;
   display: inline-block;
 }
 .footer p {
