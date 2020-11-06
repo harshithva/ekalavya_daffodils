@@ -3008,11 +3008,11 @@ a:hover {
 
 .fa {  
   width: 30px;
-  padding: 10px;
+  padding: 8px;
   font-size: 30px;
   text-align: center;
   text-decoration: none;
-  margin: 3px 2px;
+  margin: 3px -1px;
   color: white;
   border-radius: 50%; 
 }
