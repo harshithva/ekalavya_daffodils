@@ -238,3 +238,22 @@ $.stellar({
   $(window).load(function () {
     $("body").addClass("page-loaded");
   });
+
+
+console.log(window);
+
+  $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 50) {
+        $(".navbar").addClass("scrolled");
+        $('.navbar').addClass('color-change');
+        $('#logo-box').removeClass('black-bg');
+     
+    } else {
+        $(".navbar").removeClass("scrolled");
+        $('.navbar').removeClass('color-change');
+        $('#logo-box').addClass('black-bg');
+    }
+});
+

@@ -597,7 +597,7 @@ a:hover {
   padding: 5px 0;
   transform: translateX(-50%);
   border-radius: 4px;
-  
+  position: fixed;
   z-index: 3;
 }
 .navbar:before {
@@ -3046,4 +3046,21 @@ a:hover {
 .fa-pinterest {
   background: #cb2027;
   color: white;
+}
+
+.scrolled {
+  margin: -50px 0 0 0;
+  transition: all 0.4s;
+  scroll-behavior: smooth;
+ 
+}
+
+
+.color-change{
+  background-color: #1d1717f1;
+  
+}
+
+.black-bg{
+  background-color: #1d1717f1;
 }
