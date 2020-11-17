@@ -1481,14 +1481,14 @@ a:hover {
   transition: all .35s ease-in-out;
 }
 .icon-box:hover {
-  background: #fbc50b;
+  background: #AFEEEE;
   border-color: transparent;
 }
 .icon-box:hover figure {
-  filter: brightness(10);
+  filter: brightness(50%);
 }
 .icon-box:hover .content * {
-  color: #fff;
+  color: #000;
 }
 .icon-box.left figure {
   width: 100px;
