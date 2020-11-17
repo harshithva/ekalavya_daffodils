@@ -1389,8 +1389,17 @@ a:hover {
   overflow: hidden;
   margin: 0 100px;
   position: relative;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  .carousel-image-box {
+    width: 100%;
+    margin: 0 ;
+  }
+  
+}
+
 .carousel-image-box figure {
   width: 100%;
   display: block;
