@@ -257,6 +257,11 @@ $.stellar({
     }
 });
 
+
+$('.carousel').carousel({
+  interval: 10000
+});
+
 // $(document).ready(function() {
 //   var urls = ['images/slide02.jpg', 'images/slide01.jpg'];
 //   var cout = 1;
@@ -269,20 +274,20 @@ $.stellar({
 // });
 
 
-$(function () {
-  var body = $('header');
-  var backgrounds = [
-    'url(images/slide02.jpg)','url(images/slide01.jpg)', 
-    'url(images/slide03.jpg)'];
-  var current = 0;
+// $(function () {
+//   var body = $('header');
+//   var backgrounds = [
+//     'url(images/slide02.jpg)','url(images/slide01.jpg)', 
+//     'url(images/slide03.jpg)'];
+//   var current = 0;
 
-  function nextBackground() {
-      body.css(
-          'background',
-      backgrounds[current = ++current % backgrounds.length]);
+//   function nextBackground() {
+//       body.css(
+//           'background',
+//       backgrounds[current = ++current % backgrounds.length]);
 
-      setTimeout(nextBackground, 5000);
-  }
-  setTimeout(nextBackground, 5000);
-  body.css('background', backgrounds[0]);
-});
+//       setTimeout(nextBackground, 5000);
+//   }
+//   setTimeout(nextBackground, 5000);
+//   body.css('background', backgrounds[0]);
+// });

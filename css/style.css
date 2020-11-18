@@ -583,7 +583,7 @@ a:hover {
 
 /* NAVBAR */
 .navbar {
-  width: 1300px;
+  width: 1805px;
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -3087,15 +3087,15 @@ a:hover {
 }
 
 .bg1{
-  background-color: #ff7f00;
+  background-color: #E0FFFF;
 }
 
 .bg2{
-  background-color: #ffff00;
+  background-color: #F6D7D7;
 }
 
 .bg3{
-  background-color: #ff0000;
+  background-color: #FDF5C1;
 }
 
 @media only screen and (max-width: 767px) {
