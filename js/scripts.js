@@ -259,7 +259,7 @@ $.stellar({
 
 
 $('.carousel').carousel({
-  interval: 10000
+  interval: 3300
 });
 
 // $(document).ready(function() {

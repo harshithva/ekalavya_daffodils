@@ -583,7 +583,7 @@ a:hover {
 
 /* NAVBAR */
 .navbar {
-  width: 1805px;
+  width: 2000px;
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -935,7 +935,7 @@ a:hover {
 .content-section {
   width: 100%;
   display: block;
-  /* padding: 100px 0; */
+  padding: 100px 10px;
   position: relative;
   background-size: cover !important;
 }
@@ -1121,7 +1121,9 @@ a:hover {
   padding-left: 10%;
 }
 .side-content h2 {
-  font-size: 80px;
+  font-size: 50px;
+  margin-top: 10px;
+  
   color: #009a4e;
   font-family: "Oduda";
 }
@@ -1134,10 +1136,14 @@ a:hover {
 .side-content h6 {
   font-size: 36px;
   font-family: "Oduda";
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 .side-content p {
-  margin-bottom: 20px;
+  margin-bottom: 70px;
+  width: 100%;
+  display: block;
+  font-size: 25px;
+  font-family: "Oduda";
 }
 .side-content p:last-child {
   margin-bottom: 0;
@@ -3091,11 +3097,11 @@ a:hover {
 }
 
 .bg2{
-  background-color: #F6D7D7;
+  background-color: #E0FFFF;
 }
 
 .bg3{
-  background-color: #FDF5C1;
+  background-color: #E0FFFF;
 }
 
 @media only screen and (max-width: 767px) {
@@ -3118,4 +3124,18 @@ a:hover {
   }
  }
 
- 
+ .aboutup{
+   max-width: 100%;
+   margin-top: -10px;
+   margin-left: 15px;
+ }
+
+ .benefit{
+  max-width: 100%;
+  margin-left: 15px;
+
+ }
+.time1{
+  animation-duration: 2s;
+}
+
