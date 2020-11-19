@@ -622,8 +622,8 @@ a:hover {
   display: inline-block;
 }
 .navbar .logo a img {
-  height: 75px;
-  border: 5px solid transparent;
+  height: 3rem;
+ 
   
 
 }
