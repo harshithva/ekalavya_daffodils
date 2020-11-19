@@ -587,7 +587,7 @@ a:hover {
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
-  background: url("../images/pattern-bg.png") center #009a4e;
+  background: url("../images/pattern-bg.png") center #009a4dc7;
   color: #fff;
   background-size: cover;
   position: absolute;
@@ -627,6 +627,21 @@ a:hover {
   
 
 }
+
+
+.logo__header{
+  max-width: 100rem;
+  max-height: 100rem;
+padding: 0.7rem;
+  border-radius: 200px;
+  border: double 15px rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.7);
+  background-clip: padding-box;
+
+}
+
+
+
 .navbar .site-menu {
   margin: 0 30px;
   padding: 0 30px;
