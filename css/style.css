@@ -274,7 +274,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   position: fixed;
-  z-index: 9;
+  z-index: 11;
   right: 0;
   top: 0;
   background: #fbc50b;
@@ -524,7 +524,7 @@ a:hover {
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 1;
+  z-index: 10;
 }
 
 
@@ -728,15 +728,58 @@ a:hover {
 }
 
 /* HEADER */
-.header {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  transition: all 1.8s;
-  flex-wrap: wrap;
+
+
+header {
   position: relative;
-  z-index: 0;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
 }
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+
 .header .main-slider {
   width: 100%;
   height: 100vh;
@@ -889,6 +932,11 @@ a:hover {
 @media only screen and (max-width: 792px) {
  .page-header{
   background-image: url("../images/page-header-bg.jpg");
+ }
+
+ .display-small-screen{
+margin-top: 13rem;
+font-size: 3rem;
  }
 }
 
