@@ -602,6 +602,34 @@ a:hover {
   z-index: 3;
   display: inline-block;
 }
+
+
+/* @media only screen and (max-width: 792px) {
+  .navbar1{
+    width: 792px;
+    max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background: url("../images/pattern-bg.png") center #009a4dc7;
+  color: #fff;
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  margin: 20px 0;
+  padding: 5px 0;
+  transform: translateX(-50%);
+  border-radius: 4px;
+  position: fixed;
+  
+  z-index: 3;
+  display: inline-block;
+   
+  } */
+
+
+
+
 .navbar:before {
   content: "";
   width: calc(100% - 40px);
@@ -3188,49 +3216,62 @@ font-size: 3rem;
   }
  }
 
- .aboutup{
+ /* .aboutup{
    max-width: 100%;
    margin-top: -10px;
    margin-left:-50px;
- }
+ } */
 
- .benefit{
+ /* .benefit{
   max-width: 100%;
   margin-left:-50px;
 
- }
+ } */
 
-.leftbenefit{
+/* .leftbenefit{
   max-width: 100%;
   margin-left:-50px;
-}
-.imageright{
+} */
+/* .imageright{
   max-width: 100%;
   margin-left: 90px;
-}
+} */
 
 .uph2{
   margin-top: -210px;
 }
 
 .uph21{
-  margin-top: -210px;
+  margin-top: -200px;
 }
+
+.uph2a{
+  margin-top: -250px;
+}
+
 
 .upp{
   margin-top: -70px;
 }
 
 .upp1{
-  margin-top: -40px;
+  margin-top: -90px;
 }
 
 .upp2{
-  margin-top: -130px;
+  margin-top: -160px;
+}
+
+.upp12{
+  margin-top: -100px;
+}
+
+.upp26{
+  margin-top: -60px;
 }
 
 .upp22{
-  margin-top: -90px;
+  margin-top: -100px;
 }
 .l1{
   margin-bottom: 70px;
@@ -3238,4 +3279,21 @@ font-size: 3rem;
   display: block;
   font-size: 25px;
   font-family: "Oduda";
+}
+
+
+.upp23{
+  margin-top: -50px;
+}
+
+.uph23{
+  margin-top: -90px;
+}
+
+.h21{
+  margin-top: -240px;
+}
+
+.h22{
+  margin-top: -200px;
 }
