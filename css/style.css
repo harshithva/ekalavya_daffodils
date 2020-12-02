@@ -490,16 +490,23 @@ a:hover {
   margin: 3px 0;
   padding: 0;
   list-style: none;
+  
 }
 .side-widget .site-menu ul li ul {
   display: none;
   padding-left: 20px;
   margin-bottom: 10px;
+ 
+}
+
+.font-sm{
+  font-size: 1rem !important;
 }
 .side-widget .site-menu ul li a {
   color: #fff;
   font-size: 18px;
   font-weight: 600;
+  
 }
 .side-widget .site-menu ul li a:hover {
   text-decoration: none;
