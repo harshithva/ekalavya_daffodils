@@ -1137,8 +1137,19 @@ font-size: 3rem;
 .section-title h6 {
   display: block;
   color: #777;
+  margin-top: 0rem;
   margin-bottom: 10px;
+  font-size: 1.5rem;
 }
+
+.section-title h6 .who{
+  display: block;
+  color: #777;
+  margin-top: 200px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
 .section-title h2 {
   width: 100%;
   display: block;
@@ -3259,6 +3270,10 @@ font-size: 3rem;
 
 .upp{
   margin-top: -70px;
+}
+
+.upp7{
+  margin-top: -160px;
 }
 
 .upp1{
