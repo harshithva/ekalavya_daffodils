@@ -2777,17 +2777,27 @@ font-size: 3rem;
   margin-top: 50px;
 }
 .footer .footer-bottom span {
-  display: inline-block;
+  /* display: inline-block; */
+  text-align: center;
+  margin-left: 350px;
   font-size: 14px;
 }
 .footer .footer-bottom span:last-child {
-  margin-left: auto;
+ 
+  text-align: center;
+
 }
 .footer .footer-bottom span:last-child a {
   color: #fbc50b;
+  /* text-align: center; */
+  /* margin-left: -200px; */
   text-decoration: underline;
 }
 
+/* .footer-bottom1{
+  text-align: center;
+  color: #fbc50b;
+} */
 /* RESPONSIVE MEDIUM  */
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
   .navbar .site-menu {
